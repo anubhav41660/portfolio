@@ -429,17 +429,17 @@
             <p><strong>Mobile:</strong> 8318514515</p>
             <p><strong>Location:</strong> Galgotias University, Greater Noida</p>
 
-            <form action="mailto:anubhavmishra41660@gmail.com" method="post" enctype="text/plain">
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-                <input type="text" placeholder="Your Name" required>
+                <input type="hidden" name="access_key" value="625e0bfb-2080-4258-a76d-7a7faba92185">
 
-                <input type="email" placeholder="Your Email" required>
+                <input type="text" name="name" placeholder="Your Name" required>
 
-                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <input type="email" name="email" placeholder="Your Email" required>
 
-                <button type="submit">
-                    Send Message
-                </button>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
 
             </form>
 
